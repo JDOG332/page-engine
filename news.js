@@ -1,6 +1,3 @@
-/* news.js: the news brief deck. Separate from engine.js; only news rounds load it.
-   ND.mount({round, stories:[{t:topic, h:headline, g:gist, f:[facts], o:outlet, u:url}]})
-   Facts and gist take **bold**; text is escaped. Rating 1 to 3 plus a More info toggle in the same row. Send goes to the chat via sendPrompt. */
 (function () {
   var V = "1.1.1";
   var C = ["#f2b8b5", "#cfd6e2", "#9fdcae"];
